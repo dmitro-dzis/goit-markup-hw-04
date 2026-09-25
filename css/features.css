@@ -8,8 +8,9 @@
 }
 .feature-icon {
   display: flex;
+   align-items: center;
   justify-content: center;
-  border: 1px solid var(--light-slate);
+  border: 1px solid #8E8F99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
