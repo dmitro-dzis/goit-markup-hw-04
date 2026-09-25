@@ -23,6 +23,8 @@ font-weight: 700;
   border-radius: 0 0 4px 4px;
 
   overflow: hidden;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
 }
 
 .team-image {
@@ -51,4 +53,30 @@ font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.team-icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+
+gap: 24px;
+}
+.team-link {
+  border-radius: 50%;
+width: 40px;
+height: 40px;
+background-color: var(--iris);
+display: flex;
+align-items: center;
+justify-content: center;
+ background-color: #4D5AE5;
+}
+.team-link svg {
+   width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+.team-link:hover {
+  background: #404BBF;
 }
